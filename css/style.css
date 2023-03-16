@@ -502,13 +502,14 @@ span{
 @media screen and (max-width: 480px) {
     header{
         display: flex;
-        flex-direction: column;
-
+        flex-direction: column;       
         align-items: center;
+        height: 12vh;
     }
     .logo{
         width: 25%;
     }
+ 
     .parrafo{
         font-size: 17px;
         margin-left: 14%;
@@ -552,6 +553,9 @@ span{
 }
 .tPC1{
     width: 40%;
+}
+.tPC15{
+    margin-top: 50%;
 }
 .tPC2{
     width: 40%;
